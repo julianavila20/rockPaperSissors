@@ -26,6 +26,7 @@ function playerChoice() {
        input = prompt(
            "Please type rock, paper, or sissors while spelling needd to be exact. Caps does not matter"
        );
+       
        while (input == null) {
         input = prompt("type rock, paper, or sissors.'");
     }
